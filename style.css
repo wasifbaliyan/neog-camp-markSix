@@ -14,8 +14,11 @@ body {
 
 .header {
   background-color: var(--primary-color);
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  padding: 2rem;
   text-align: center;
 }
 
@@ -26,10 +29,14 @@ body {
 }
 
 .main {
-  min-height: 49.9vh;
+  min-height: 55vh;
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .textarea {
@@ -70,11 +77,17 @@ body {
   width: 100%;
   height: 80px;
   margin-bottom: 1rem;
+  text-align: left;
+  padding: 10px 20px;
 }
 .footer {
   background-color: var(--primary-color);
-  padding: 2rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 30vh;
 }
 
 .footer-heading {
